@@ -1,0 +1,35 @@
+/* Styles for each task item */
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.task-item .task-title {
+  flex: 1;
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+.task-item.completed .task-title {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-item .task-actions {
+  display: flex;
+  align-items: center;
+}
+
+.task-item .task-actions button {
+  margin-left: 10px;
+}
+
+.task-item .delete-button {
+  background-color: #dc3545;
+}
+
+.task-item .delete-button:hover {
+  background-color: #c82333;
+}

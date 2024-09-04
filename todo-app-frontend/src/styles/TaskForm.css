@@ -1,0 +1,38 @@
+/* Styles for the TaskForm component */
+.task-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-form h2 {
+    margin-top: 0;
+  }
+  
+  .task-form input[type="text"] {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task-form textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 80px;
+    resize: vertical;
+  }
+  
+  .task-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+  }
+  
+  .task-form button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,38 @@
+/* Styles for the TaskList component */
+.task-list {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list h2 {
+    margin-top: 0;
+  }
+  
+  .task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list ul li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .task-list ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .task-list .drag-handle {
+    cursor: move;
+    margin-right: 15px;
+    font-size: 18px;
+    color: #888;
+  }
+  

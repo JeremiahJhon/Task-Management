@@ -1,0 +1,32 @@
+/* Styles for the CompletedTasks page */
+.completed-tasks {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .completed-tasks h2 {
+    margin-top: 0;
+    color: #6c757d;
+  }
+  
+  .completed-tasks .task-list {
+    border: none;
+    box-shadow: none;
+  }
+  
+  .completed-tasks .task-item.completed .task-title {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .completed-tasks .task-actions .restore-button {
+    background-color: #17a2b8;
+  }
+  
+  .completed-tasks .task-actions .restore-button:hover {
+    background-color: #138496;
+  }
+  
