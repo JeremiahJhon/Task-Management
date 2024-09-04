@@ -41,19 +41,21 @@ npm install
 cd ../frontend
 npm install
 
+### Running the Application
 cd backend
 npm start
 
 cd ../frontend
 npm start
 
+### Running Tests
 cd frontend
 npm test
 
 cd backend
 npm test
 
-Assumptions & Decisions
+### Assumptions & Decisions
 - Data Persistence: For simplicity, tasks are stored in an in-memory array. In a production environment, this would be replaced with a database.
 - Styling: Basic CSS/SCSS is used to keep the UI clean and simple.
 - Task Order: Tasks can be rearranged using drag-and-drop functionality.
